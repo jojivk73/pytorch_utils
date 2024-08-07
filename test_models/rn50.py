@@ -6,6 +6,7 @@ print("---------------------XPU Check:--------------------------")
 print(torch.xpu.get_device_properties(0))
 print("-----------------------Done------------------------------")
  
+print(" Resnet50 Test for success: Uses random data")
 model = models.resnet50(weights="ResNet50_Weights.DEFAULT")
 model.eval()
 data = torch.rand(1, 3, 224, 224)

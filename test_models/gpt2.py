@@ -21,6 +21,6 @@ gen_tokens = model.generate(
     max_length=100,
 )
 gen_text = tokenizer.batch_decode(gen_tokens)[0]
-print("---------------------------Done-----------------------------------")
 print(" Text generated:", gen_text)
+print("---------------------------Done-----------------------------------")
 

@@ -21,4 +21,5 @@ gen_tokens = model.generate(
 )
 gen_text = tokenizer.batch_decode(gen_tokens)[0]
 
+print("---------------------------Done-----------------------------------")
 print("--Generated text :", gen_text)
