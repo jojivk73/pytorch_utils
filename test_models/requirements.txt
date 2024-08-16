@@ -1,0 +1,7 @@
+transformers
+sentencepeice
+diffusers
+protobuf
+accelerate
+invisible_watermark
+safetensors
